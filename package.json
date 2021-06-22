@@ -1,0 +1,23 @@
+{
+  "name": "loin-exhange",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "next dev",
+    "deploy": "next build && next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.2.2",
+    "next-images": "^1.7.0",
+    "react": "17.0.2",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-dom": "17.0.2",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.0",
+    "styled-reset": "^4.3.4"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
