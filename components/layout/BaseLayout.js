@@ -2,6 +2,7 @@ import React from 'react';
 
 //Component
 import Meta from '../shared/Meta';
+import Menu from '../shared/Menu'
 
 class BaseLayout extends React.Component {
   render(){
@@ -9,6 +10,7 @@ class BaseLayout extends React.Component {
     return (
       <>
         <Meta />
+        <Menu />
         { children }
       </>
     )
