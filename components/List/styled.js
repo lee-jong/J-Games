@@ -26,4 +26,6 @@ export const Img = styled.img`
 `
 
 export const Title = styled.h2`
+    font-weight: 600;
+    text-align: center;
 `
